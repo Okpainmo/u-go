@@ -1,4 +1,4 @@
-P.S: The original version of this repository has been transfered to the U-go organization Github account. Visit https://github.com/U-GO-HQ/u-go to access the original(still opensource) version.
+P.S: The original version of this repository has been transfered to the U-go(organization) Github account. Visit https://github.com/U-GO-HQ/u-go to access the original(still opensource) version.
 
 # u-go.
 
