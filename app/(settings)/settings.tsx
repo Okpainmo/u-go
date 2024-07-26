@@ -53,7 +53,7 @@ const Profile = () => {
           style={{ backgroundColor: background_variant_1_light }}
         >
           <View className='flex flex-row gap-x-8 items-center'>
-            <Pressable onPress={() => router.back()}>
+            <Pressable onPress={() => router.push('/')}>
               <Ionicons
                 name='arrow-back-outline'
                 size={22}
@@ -187,6 +187,29 @@ const Profile = () => {
               </Text>
             </View>
           </Pressable>
+          <Link href='/wallet-settings' asChild>
+            <Pressable className='px-3 py-3 flex flex-row items-center gap-x-6'>
+              <Ionicons
+                name='wallet-outline'
+                size={22}
+                color={text_variant_1}
+              />
+              <View className='flex justify-between'>
+                <Text
+                  className='text-[14px]'
+                  style={{ color: text_variant_1, fontFamily: 'font_500' }}
+                >
+                  Wallet settings
+                </Text>
+                <Text
+                  className='text-[11px] mt-[3px]'
+                  style={{ color: text_variant_1, fontFamily: 'font_200' }}
+                >
+                  set you address, and discover other wallet-related settings.
+                </Text>
+              </View>
+            </Pressable>
+          </Link>
         </View>
 
         {/* </View> */}
