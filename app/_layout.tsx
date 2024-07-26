@@ -79,6 +79,11 @@ export default function RootLayout() {
             options={{ headerShown: false }}
           />
           <Stack.Screen name='chat' options={{ headerShown: false }} />
+          <Stack.Screen name='(settings)' options={{ headerShown: false }} />
+          <Stack.Screen
+            name='(wallet-features)'
+            options={{ headerShown: false }}
+          />
           {/* <Stack.Screen name='(modals)' options={{ headerShown: false }} /> */}
           <Stack.Screen name='+not-found' />
         </Stack>
